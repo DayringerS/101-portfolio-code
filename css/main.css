@@ -1,0 +1,245 @@
+/***** BASE STYLES *****/
+body 
+{
+    color: #524332;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+
+}
+/***** GRID *****/
+.full-width
+{
+    margin: 0 auto;
+    overflow:auto;
+    text-align: left;
+    width:1200px;
+}
+.half-width 
+{
+    float: left;
+    width: 600px;
+    height: auto;
+}
+.third-width /*****CHECK WITH INSTRUCTORS ON STRANGE SCROLL BAR AND MISSING BACKGROUD SEGMENT******/
+{
+    
+    float:left;
+    padding:0px 0px 80px 0px;
+    text-align: center;
+    width: 400px; 
+}
+/*****HEADER******/
+header h1 
+{ 
+    color: #434343;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 65px 0 65px 25px;
+}
+nav 
+{
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a 
+{
+    color: #434343;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size: 18px;
+    font-variant:small-caps;
+    font-weight: normal;
+    padding-left: 80px; 
+    text-transform:uppercase;
+    text-decoration:none;
+}
+header h2
+{
+    color:#524332
+    font-family: 'GlacialIndifferenceRegular';
+    font-size: 36px;
+    font-weight: normal;
+    padding-left: 50px;
+    text-align: left;
+}
+header p 
+{
+    color:#524332;
+    font-family: 'HKGroteskRegular';
+    font-style: normal; 
+    font-size:24px;
+    font-weight: lighter;
+    line-height:34px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/***** ABOUT *****/
+#about .full-width
+{
+    ackground-color: #fff8f5;
+    padding: 80px 0px;
+}
+#about h2 
+{
+    color:#524332;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size:36px;
+    font-weight: normal;
+    padding-left: 50px;
+    text-align: left;
+}
+#about p 
+{
+    color: #141c1f; 
+    font-family: 'HKGroteskRegular';
+    font-weight: lighter;
+    font-style: normal; 
+    font-size:21px;
+    line-height:34px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*****WORK******/
+#work .full-width 
+{
+    background-color: #fff8f5; 
+    padding: 30px 0;
+}
+#work img {
+    padding-bottom: 0px;
+    height: 120px;
+    width: 100x;
+}
+#work h3 
+{
+    color: #3c3c41;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size:24px;
+    font-weight: normal;
+    line-height:32px;
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+}
+#work p 
+{
+    font-family: 'HKGroteskRegular';
+    font-style: normal; 
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding: 0px 50px;
+    text-align: center;
+}
+/*****CONTACT*****/
+#contact .full-width 
+{
+    background-color: #ffffff;
+    padding: 110px 0;
+}
+#contact img#contact-img 
+{
+    border: 12px solid #ffffff;
+    margin-left: 35px;
+    width: 550px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul 
+{
+    padding-left: 115px;
+
+}
+#contact #envelope 
+{
+    padding: 0 10px 0 115px;
+    height: 22px;
+    width: 27px;
+}
+#contact h2 
+{
+    color:#524332;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    line-height:44px;
+    margin-bottom: 2px;
+}
+#contact #socialmedia-header 
+{
+    color:#524332;
+    font-size: 29px;
+    font-weight: bolder;
+    line-height:44px;
+    margin: 40px 0 0 0;
+}
+#contact a 
+{
+    color: #af6a2a;
+    font-size:27px;
+    font-family: 'HKGroteskRegular';
+    font-style: normal; 
+    font-weight: lighter;
+    margin: 40px 0 0 0;
+    text-align: unset;
+    text-decoration: underline;
+}
+#contact ul 
+{
+    list-style: none;
+}
+#contact ul li 
+{
+    display: inline-block;
+}
+#contact ul img 
+{
+    height: 25px;
+    padding-right: 48px;
+    padding-left: 20px;
+    width: 25px;
+}
+/***** WORK PAGE *****/
+#work-page .full-width 
+{
+    background-color: #fff8f5; 
+    padding: 30px 0;
+}
+#work-page img
+{
+border: 4px solid #af6a2a;
+height: 130px;
+margin: 18px;
+width: 100x;
+}
+#work-page h3 
+{
+    color: #3c3c41;
+    font-family: 'GlacialIndifferenceRegular';
+    font-style: normal;
+    font-size:24px;
+    font-weight: normal;
+    line-height:32px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    text-align: center;
+    width: 250px;
+}
+#work-page p 
+{
+    font-family: 'HKGroteskRegular';
+    font-style: normal; 
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px 35px;
+    text-align: center;
+}
